@@ -12,7 +12,7 @@ services:
   client:
 
     build: client/
-    command: python ./client.py
+    command: python client.py
     network_mode: host
     depends_on:
       - server
